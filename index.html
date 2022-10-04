@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Urna Eletrônica
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="inicial">
+            O Processo Eleitoral Inicial Dentre: 
+            <div id="timer"></div>
+        </div>
+        <div class="candidato">
+            <h6>Você Votou Para</h6>
+            <input type="text" name="txtVoto" id="tVoto" size="5" maxlength="2" readonly>
+            <img src="#" alt="" id="imgCand">
+            <div class="nome">
+                <span id="nomeCand">Candidato: </span>
+                <br>
+                <span id="partido">Partido: </span>
+            </div>
+        </div>
+
+        <div class="teclado">
+            <div class="numero">
+                <div class="linha1">
+                    <button id="b1" onclick="buttonB1();">1</button>
+                    <button id="b2" onclick="buttonB2();">2</button>
+                    <button id="b3" onclick="buttonB3();">3</button>
+                </div>
+
+                <div class="linha2">
+                    <button id="b4" onclick="buttonB4();">4</button>
+                    <button id="b5" onclick="buttonB5();">5</button>
+                    <button id="b6" onclick="buttonB6();">6</button>
+                </div>
+
+                <div class="linha3">
+                    <button id="b7" onclick="buttonB7();">7</button>
+                    <button id="b8" onclick="buttonB8();">8</button>
+                    <button id="b9" onclick="buttonB9();">9</button>
+                </div>
+
+                <div class="linha4">
+                    <button id="b0" onclick="buttonB0();">0</button>
+                </div>
+            </div>
+
+            <div class="acao">
+                <button id="btnBranco">Branco</button>
+                <button id="btnCorrige" onclick="btnCorrigir();">Corrige</button>
+                <button id="btnConfirma">Confirma</button>
+            </div>
+        </div>
+
+        <div class="fim">
+            <h1>
+                Fim
+            </h1>
+        </div>
+
+        <div class="resultado">
+            <h1>Resultado Final</h1>
+            <div id="pColocado">
+                <img src="#" alt="" id="imgPColocado">
+                <h3 id="resPColocado">Candidato</h3>
+            </div>
+            <div id="sColocado">
+                <img src="#" alt="" id="imgSColocado">
+                <h3 id="resSColocado">Candidato</h3>
+            </div>
+            <div id="tColocado">
+                <img src="#" alt="" id="imgTColocado">
+                <h3 id="resTColocado">Candidato</h3>
+            </div>
+            <div id="QaColocado">
+                <img src="#" alt="" id="imgQaColocado">
+                <h3 id="resQaColocado">Candidato</h3>
+            </div>
+            <div id="QiColocado">
+                <img src="#" alt="" id="imgQiColocado">
+                <h3 id="resQiColocado">Candidato</h3>
+            </div>
+            <div id="rBranco">
+                <img src="#" alt="" id="imgBranco">
+                <h3 id="resBranco">Candidato</h3>
+            </div>
+            <div id="rNulo">
+                <img src="#" alt="" id="imgNulo">
+                <h3 id="resNulo">Candidato</h3>
+            </div>
+
+        </div>
+        <div class="zerezima">
+            <h1>Zerézima</h1>
+            <div id="zpColocado">
+                <img src="#" alt="" id="zimgPColocado">
+                <h3 id="zresPColocado">Candidato</h3>
+            </div>
+            <div id="zsColocado">
+                <img src="#" alt="" id="zimgSColocado">
+                <h3 id="zresSColocado">Candidato</h3>
+            </div>
+            <div id="ztColocado">
+                <img src="#" alt="" id="zimgTColocado">
+                <h3 id="zresTColocado">Candidato</h3>
+            </div>
+            <div id="zQaColocado">
+                <img src="#" alt="" id="zimgQaColocado">
+                <h3 id="zresQaColocado">Candidato</h3>
+            </div>
+            <div id="zQiColocado">
+                <img src="#" alt="" id="zimgQiColocado">
+                <h3 id="zresQiColocado">Candidato</h3>
+            </div>
+            <div id="zrBranco">
+                <img src="#" alt="" id="zimgBranco">
+                <h3 id="zresBranco">Candidato</h3>
+            </div>
+            <div id="zrNulo">
+                <img src="#" alt="" id="zimgNulo">
+                <h3 id="zresNulo">Candidato</h3>
+            </div>
+        </div>
+
+        <div class="telaInicial">
+            <h1>Sejam Bem-Vindos a Nossa Urna Eletrônica</h1>
+            <h2>Desenvolvida Pela Revolution Informática</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae exercitationem numquam aspernatur amet omnis doloremque dignissimos nihil, illo excepturi ullam voluptates praesentium, nulla porro iure sit aut autem cum molestiae.</p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

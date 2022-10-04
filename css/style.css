@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: darkgrey;
+    margin: 10px;
+    box-shadow: 2px 2px black;
+}
+
+div#inicial{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:white;
+    color: black;
+    font-weight: bolder;
+    font-size: 2em;
+    justify-items: center;
+    justify-content: center;
+}
+
+div.candidato{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;    
+    background-color: lightgray;
+    padding: 5px;
+    align-items: center;
+}
+
+div.candidato h6{
+    font-size: 1em;
+}
+
+div.candidato input{
+    font-size: 3em;
+    border: 0px;
+    margin: 5px;
+}
+
+div.candidato img{
+    width: 50%;
+    height: 50%;
+    margin: 5px;
+}
+
+div.candidato div.nome{
+    margin: 2px;
+    border: 1px solid black;
+}
+
+div.teclado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;    
+}
+
+div.numero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 5px;
+    margin: 5px;
+}
+
+div.acao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;    
+}
+
+div.acao button#btnBranco{
+    font-size: 1.5em;
+    background-color: white;
+    margin: 2px;
+    border: 0;
+    padding: 3px;
+    font-weight: bolder;
+}
+
+div.acao button#btnCorrige{
+    font-size: 1.5em;
+    background-color: orangered;
+    margin: 2px;
+    border: 0;
+    padding: 3px;
+    font-weight: bolder;
+}
+
+div.acao button#btnConfirma{
+    font-size: 1.5em;
+    background-color: green;
+    margin: 2px;
+    border: 0;
+    padding: 3px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+div.numero div.linha1{
+    margin: 3px;
+}
+
+div.numero div.linha1 button,
+div.numero div.linha2 button,
+div.numero div.linha3 button,
+div.numero div.linha4 button{
+    margin: 3px;
+    font-size: 1.5em;
+    padding: 8px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-weight: bolder;
+}
+
+/*Fim*/
+
+div.fim{
+    border: 1px solid #fff;
+    box-shadow: 1px 1px red;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+div.fim h1{
+    color: red;
+    text-shadow: 1px 1px #fff;
+}
+
+/*Resultado*/
+
+div.resultado,
+div.zerezima{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    margin: 3px;
+    padding: 10px;
+}
+
+div.resultado h1,
+div.zerezima h1{
+    font-size: 3em;
+}
+
+div#pColocado,
+div#sColocado,
+div#tColocado,
+div#QaColocado,
+div#QiColocado,
+div#rBranco,
+div#rNulo,
+div#zpColocado,
+div#zsColocado,
+div#ztColocado,
+div#zQaColocado,
+div#zQiColocado,
+div#zrBranco,
+div#zrNulo{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+div#pColocado img,
+div#sColocado img,
+div#tColocado img,
+div#QaColocado img,
+div#QiColocado img,
+div#rBranco img,
+div#rNulo img,
+div#zpColocado img,
+div#zsColocado img,
+div#ztColocado img,
+div#zQaColocado img,
+div#zQiColocado img,
+div#zrBranco img,
+div#zrNulo img{
+    width: 10%;
+    height: 150%;
+    margin: 5px;
+}
